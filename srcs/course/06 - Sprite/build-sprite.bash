@@ -7,6 +7,6 @@ BIN_DIR="${ROOT_DIR}/bin"
 echo "${ROOT_DIR}"
 
 cd "${THIS_DIR}" && \
-    nasm Keyboard.asm -f bin -o "${BIN_DIR}/keyboard.com"
+    nasm sprite.asm -f bin -o "${BIN_DIR}/sprite.com"
 
-#$ chmod +x build-keyboard.bash
+#$ chmod +x build-sprite.bash
